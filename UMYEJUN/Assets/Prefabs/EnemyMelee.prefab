@@ -144,8 +144,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 1.9947221, z: 1}
+  m_Center: {x: 0, y: 1.0240666, z: 0}
 --- !u!114 &7854538506497821930
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,6 +161,10 @@ MonoBehaviour:
   maxHp: 3
   currentHp: 0
   hpSlider: {fileID: 0}
+  invincibleTime: 0
+  dropPrefab: {fileID: 1170643511961204828, guid: 633b427062c338341895a83e328a182f, type: 3}
+  dropChance: 0.3
+  hitEffect: {fileID: 6515791124317797526, guid: 25acd05d152610148aaa343069b25157, type: 3}
 --- !u!114 &1136483128675924296
 MonoBehaviour:
   m_ObjectHideFlags: 0
