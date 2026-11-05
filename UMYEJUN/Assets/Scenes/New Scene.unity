@@ -256,6 +256,9 @@ GameObject:
   m_Component:
   - component: {fileID: 992188284}
   - component: {fileID: 992188283}
+  - component: {fileID: 992188287}
+  - component: {fileID: 992188286}
+  - component: {fileID: 992188285}
   m_Layer: 0
   m_Name: Tester
   m_TagString: Untagged
@@ -275,6 +278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 260be46d4718f5941997a0ea770241bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Lesson09
+  attack: 10
+  gold: 100
+  potion: 3
 --- !u!4 &992188284
 Transform:
   m_ObjectHideFlags: 0
@@ -290,6 +296,56 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &992188285
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992188282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6d0cba5510250429ecf370a00e2e0f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RewardCalc
+  playSeconds: 3725
+  gold: 1234
+  members: 4
+  kills: 7
+  expPerKill: 35
+  totalDamage: 250
+  hits: 20
+  expRate: 1.5
+--- !u!114 &992188286
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992188282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cef76346d659cd47b4aa614c6bc6e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HpPractice
+  currentHp: 100
+  maxHp: 100
+--- !u!114 &992188287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992188282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 225d057b29a2b9a43a83a2491103e312, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::StatPractice
+  PlayerName: UMYEJUN
+  level: 20
+  attack: 2
+  isBoss: 0
 --- !u!1 &1589174114
 GameObject:
   m_ObjectHideFlags: 0
