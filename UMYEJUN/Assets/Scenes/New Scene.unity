@@ -259,6 +259,8 @@ GameObject:
   - component: {fileID: 992188287}
   - component: {fileID: 992188286}
   - component: {fileID: 992188285}
+  - component: {fileID: 992188289}
+  - component: {fileID: 992188288}
   m_Layer: 0
   m_Name: Tester
   m_TagString: Untagged
@@ -346,6 +348,32 @@ MonoBehaviour:
   level: 20
   attack: 2
   isBoss: 0
+--- !u!114 &992188288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992188282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f57e494b4c1b2af48acdf23bf7930b2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelSystem
+  expPerKill: 35000
+  killCount: 3
+--- !u!114 &992188289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992188282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80c58ece0e0d8be40b1184e8ae299eee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Lesson10
 --- !u!1 &1589174114
 GameObject:
   m_ObjectHideFlags: 0
